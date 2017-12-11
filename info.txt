@@ -1,1 +1,341 @@
 487901 good examples out of 487901
+
+label 0 (red heart) top 10 words:
+️: 99707
+love: 9475
+New: 4453
+Love: 4168
+Happy: 3917
+best: 3117
+️…: 2820
+We: 2736
+Park: 2502
+night: 2413
+University: 2349
+day: 2283
+much: 2171
+one: 2076
+little: 2031
+
+label 1 (smiley face with heart eyes) top 10 words:
+love: 3146
+New: 2036
+…: 1832
+new: 1211
+night: 1181
+Park: 1102
+beautiful: 1026
+So: 1006
+Love: 1003
+day: 952
+get: 947
+best: 934
+got: 924
+see: 913
+favorite: 896
+
+label 2 (laughing face) top 10 words:
+…: 2281
+like: 2144
+When: 1950
+get: 1517
+New: 1448
+got: 1413
+lol: 1130
+know: 1100
+one: 1050
+love: 1017
+don't: 955
+time: 895
+We: 812
+good: 770
+go: 765
+
+label 3 (two pink hearts) top 10 words:
+love: 2680
+best: 1260
+University: 1130
+Happy: 1122
+…: 1054
+Love: 933
+New: 901
+night: 701
+day: 700
+little: 696
+happy: 665
+much: 655
+birthday: 653
+one: 650
+favorite: 644
+
+label 4 (flame) top 10 words:
+New: 1180
+lit: 1051
+night: 952
+…: 875
+fire: 701
+new: 690
+last: 567
+It's: 555
+We: 549
+University: 501
+got: 490
+get: 470
+hot: 442
+it's: 413
+When: 391
+
+label 5 (blushing smiley face) top 10 words:
+…: 1068
+day: 759
+New: 735
+Happy: 722
+love: 696
+good: 687
+time: 628
+happy: 546
+night: 538
+see: 528
+little: 485
+new: 478
+like: 461
+got: 448
+So: 427
+
+label 6 (face with sunglsses) top 10 words:
+New: 883
+Beach: 702
+…: 652
+day: 545
+Park: 460
+good: 454
+California: 431
+night: 430
+University: 420
+time: 419
+like: 411
+get: 396
+cool: 387
+We: 381
+got: 366
+
+label 7 (stars) top 10 words:
+New: 1102
+…: 696
+night: 550
+Magic: 470
+York: 466
+A: 430
+new: 420
+love: 410
+Disney's: 406
+Kingdom: 391
+University: 374
+California: 372
+like: 369
+Park: 358
+time: 337
+
+label 8 (blue heart) top 10 words:
+love: 1218
+…: 644
+New: 602
+University: 601
+School: 525
+best: 521
+Happy: 505
+High: 488
+little: 437
+Stadium: 431
+day: 429
+Love: 398
+Park: 394
+Beach: 361
+night: 353
+
+label 9 (kissy face) top 10 words:
+love: 1386
+Happy: 1210
+Love: 824
+…: 813
+New: 582
+Thanks: 560
+birthday: 533
+night: 464
+best: 430
+Thank: 407
+see: 377
+day: 359
+University: 345
+Birthday: 335
+one: 323
+
+label 10 (regular camera) top 10 words:
+:: 5740
+|: 872
+New: 763
+:…: 748
+…: 681
+Park: 387
+California: 360
+York: 332
+A: 310
+last: 309
+night: 303
+like: 267
+Los: 265
+day: 257
+love: 246
+
+label 11 (american flag) top 10 words:
+New: 1249
+#usa: 1121
+York: 739
+…: 607
+Happy: 461
+America: 459
+Center: 435
+United: 381
+City: 371
+National: 356
+USA: 354
+Park: 354
+Day: 353
+House: 325
+States: 322
+
+label 12 (sun) top 10 words:
+️: 13584
+Beach: 1328
+day: 850
+Beach,: 701
+Florida: 668
+Park: 648
+sun: 572
+Good: 557
+summer: 549
+Lake: 519
+California: 509
+dy: 500
+morning: 489
+New: 461
+South: 391
+
+label 13 (purple heart) top 10 words:
+love: 1048
+University: 531
+…: 521
+best: 457
+Love: 444
+Happy: 425
+New: 413
+night: 335
+School: 311
+High: 305
+So: 279
+Park: 274
+Center: 261
+day: 260
+little: 254
+
+label 14 (winky face) top 10 words:
+…: 703
+New: 471
+like: 440
+get: 397
+good: 379
+We: 347
+one: 341
+know: 300
+see: 294
+night: 294
+love: 294
+got: 289
+time: 288
+little: 259
+day: 256
+
+label 15 (the 100) top 10 words:
+New: 518
+…: 494
+University: 378
+get: 310
+We: 300
+love: 282
+like: 269
+You: 266
+got: 249
+A: 232
+don't: 223
+night: 222
+one: 221
+day: 213
+know: 211
+
+label 16 (smiley face with teeth) top 10 words:
+…: 571
+New: 516
+time: 329
+day: 321
+got: 303
+get: 291
+Happy: 281
+like: 277
+see: 273
+new: 269
+night: 263
+love: 253
+good: 249
+So: 235
+one: 231
+
+label 17 (christmas tree) top 10 words:
+Christmas: 4144
+Merry: 1548
+Christms: 712
+tree: 699
+It's: 697
+time: 584
+like: 544
+Tree: 462
+New: 436
+Happy: 427
+Center: 404
+…: 380
+look: 349
+Eve: 339
+lot: 334
+
+label 18 (camera with flash) top 10 words:
+:: 4005
+|: 703
+New: 644
+…: 547
+:…: 450
+California: 326
+Park: 324
+York: 293
+night: 262
+Los: 260
+A: 247
+like: 244
+last: 234
+photo: 221
+•: 215
+
+label 19 (winky face with tongue out) top 10 words:
+…: 540
+New: 406
+like: 338
+get: 310
+night: 297
+University: 285
+good: 269
+We: 267
+day: 262
+one: 261
+got: 258
+time: 255
+love: 218
+fun: 218
+Happy: 217
