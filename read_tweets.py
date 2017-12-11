@@ -48,7 +48,7 @@ def reading_data_save_to_array(labelfilename,textfilename,train_percent):
     X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
     
     print(X_train_counts.shape)
-    clf = Lasso()
+    clf = LogisticRegression()
 #    print((vectorizer.get_feature_names()))
     clf = clf.fit(X_train_tfidf,train_y)
 
@@ -67,7 +67,7 @@ def reading_data_save_to_array(labelfilename,textfilename,train_percent):
     
     
     
-train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_by_ID_19_11_2017__06_45_41.txt.labels','tweet_by_ID_19_11_2017__06_45_41.txt.text',0.8)
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text.text',0.8)
 
 
 
