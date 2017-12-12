@@ -5,15 +5,28 @@ Created on Wed Nov 15 23:35:30 2017
 
 @author: Chenhao
 """
+#from __future__ import print_function
+#from nltk.stem import *
+#from nltk.stem.porter import *
+#from nltk.stem.snowball import SnowballStemmer
+#
+#from nltk.corpus import stopwords
+#from nltk.tokenize import wordpunct_tokenize
+
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.linear_model import LogisticRegression as LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import Lasso
 from sklearn import metrics
+import re
+
 
 tweetText = []
 tweetLabel = []
+
+     
 
 def reading_data_save_to_array(labelfilename,textfilename,train_percent):
     
@@ -47,7 +60,7 @@ def reading_data_save_to_array(labelfilename,textfilename,train_percent):
     tfidf_transformer = TfidfTransformer( )
     X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
     
-    print(X_train_counts.shape)
+    print(X_train_counts.toarray())
     clf = LogisticRegression()
 #    print((vectorizer.get_feature_names()))
     clf = clf.fit(X_train_tfidf,train_y)
@@ -65,9 +78,21 @@ def reading_data_save_to_array(labelfilename,textfilename,train_percent):
     
     
     
+
     
-    
-train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text.text',0.8)
+print ("SNOWBALL")
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text_STEM.text',0.8)
+
+print ("stop")
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text_STOP.text',0.8)
 
 
+print ("BOTH")
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text_BOTH.text',0.8)
+
+print ("Porter")
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text_POTER.text',0.8)
+
+print ("PorterBOTH")
+train_x,train_y,test_x,test_y = reading_data_save_to_array('tweet_labels.labels','tweet_text_PORTER_BOTH.text',0.8)
 
